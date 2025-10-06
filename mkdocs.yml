@@ -66,3 +66,6 @@ plugins:
 
 nav:
   - Home: index.md
+  - Database: database.md
+  - API: api.md
+  - Python Client: python-client.md

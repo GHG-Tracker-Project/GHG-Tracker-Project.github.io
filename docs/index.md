@@ -1,6 +1,10 @@
-# Welcome to MkDocs
+# GHG Tracker Project Documentation
 
-For full documentation visit [mkdocs.org](https://www.mkdocs.org).
+Here you will find all the documentation for the GHG Tracker Project.
+The project consists the LEDGER database which houses all the data, a FastAPI to query the database, and client program for high-level access.
+We currently only use Python for the client, but are open to building client applications in other languages if there is enough demand.
+
+This is a work in progress
 
 ## Commands
 

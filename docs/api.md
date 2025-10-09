@@ -12,3 +12,9 @@ The API provides endpoints to retrieve emissions and contextual data.
 !!! example
 
     The following returns all the actors in the database [https://orca-app-5ivtt.ondigitalocean.app/api/v0/actors](https://orca-app-5ivtt.ondigitalocean.app/api/v0/actors).
+
+## Development
+
+Checkout the repository if you want to contribute to the API:
+
+[GitHub Repo](https://github.com/GHG-Tracker-Project/ledger-database/tree/dev/api){ .md-button .md-button--primary }

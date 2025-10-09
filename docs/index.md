@@ -1,21 +1,20 @@
 # GHG Tracker Project Documentation
 
-Here you will find all the documentation for the GHG Tracker Project.
-The project consists the LEDGER database which houses all the data, a FastAPI to query the database, and client program for high-level access.
-We currently only use Python for the client, but are open to building client applications in other languages if there is enough demand.
+![ledger architecture schematic](assets/ledger-architecture-schematic.png)
 
-This is a work in progress
+The GHG Tracker Project is an open science initiative that provides comprehensive data on greenhouse gas (GHG) emissions and climate targets across national and subnational levels (e.g., states, provinces, and cities). The project harmonizes emissions data, reduction targets, and related socioeconomic indicators into a unified framework for reproducible analysis.
 
-## Commands
+At the core of the GHG Tracker Project is **LEDGER** (Linked Envionrment Data and Greenhouse Emissions Resource), an open-source data architecture that includes:
 
-- `mkdocs new [dir-name]` - Create a new project.
-- `mkdocs serve` - Start the live-reloading docs server.
-- `mkdocs build` - Build the documentation site.
-- `mkdocs -h` - Print help message and exit.
+- **A [PostgreSQL](https://www.postgresql.org/) database** that stores harmonized data
+- **A [FastAPI](https://fastapi.tiangolo.com/) service** that enables structured and performant data queries
+- **A [Python](https://www.python.org/) client** library that provides high-level programmatic access to the API (we plan to expand support to other languages based on community demand.)
 
-## Project layout
+The **LEDGER** database and API serve are currently deployed on [Digital Ocean](https://www.digitalocean.com/).
 
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.
+## Support
+
+This project is funded and supported by:
+
+- [Yale Center for Natural Carbon Capture (YCNCC)](https://naturalcarboncapture.yale.edu/)
+- [Yale Center for Geospatial Solutions (YCGC)](https://geospatial.yale.edu/)

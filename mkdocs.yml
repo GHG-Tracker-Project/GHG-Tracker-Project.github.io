@@ -4,6 +4,8 @@ repo_name: GHG-Tracker-Project/GHG-Tracker-Project.github.io
 repo_url: https://github.com/GHG-Tracker-Project/GHG-Tracker-Project.github.io
 
 theme:
+  favicon: assets/favicon.ico
+  logo: assets/logo.svg
   icon:
     repo: fontawesome/brands/github
   name: material
@@ -53,16 +55,21 @@ markdown_extensions:
       pygments_lang_class: true
   - pymdownx.inlinehilite
   - pymdownx.snippets
-  - pymdownx.superfences
   - admonition
+  - pymdownx.superfences
+  - pymdownx.details # need to make admonitions collapsible
   - pymdownx.caret
   - pymdownx.tilde
   - pymdownx.critic
   - pymdownx.keys
   - pymdownx.mark
+  - attr_list # to make buttons
 
 plugins:
   - search
+
+extra_css:
+  - assets/custom.css
 
 nav:
   - Home: index.md

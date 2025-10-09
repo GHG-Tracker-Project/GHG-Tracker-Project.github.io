@@ -8,4 +8,4 @@ The LEDGER database is the core data layer of the GHG Tracker Project. It is bui
 
 Checkout the repository if you want to contribute to the database design and/or data ingestion:
 
-[GitHub Repo](https://github.com/GHG-Tracker-Project/ghg-tracker-database){ .md-button .md-button--primary }
+[GitHub Repo](https://github.com/GHG-Tracker-Project/ledger-database){ .md-button .md-button--primary }

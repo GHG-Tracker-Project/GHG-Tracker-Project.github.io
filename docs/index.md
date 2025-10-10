@@ -1,5 +1,9 @@
 # GHG Tracker Project Documentation
 
+!!! note
+
+    This documentation is still under active development and may be incomplete
+
 ![ledger architecture schematic](assets/ledger-architecture-schematic.png)
 
 The GHG Tracker Project is an [open science](https://www.unesco.org/en/open-science/about?hub=686) initiative that provides comprehensive data on greenhouse gas (GHG) emissions and climate targets across national and subnational levels (e.g., states, provinces, and cities). The project harmonizes emissions data, reduction targets, and related socioeconomic indicators into a unified framework for reproducible analysis.

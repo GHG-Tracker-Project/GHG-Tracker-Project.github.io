@@ -17,6 +17,8 @@ This client provides a high-level way of retrieving data and is the recommended 
     pip install git+https://github.com/GHG-Tracker-Project/ledgerdata.git@main
     ```
 
+    More detailed documentation for the client coming soon
+
 ## Development
 
 Please checkout the repository if you want to contribute to this client:
